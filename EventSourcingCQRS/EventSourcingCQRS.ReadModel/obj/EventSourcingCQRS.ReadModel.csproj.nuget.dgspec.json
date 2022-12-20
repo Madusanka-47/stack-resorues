@@ -1,0 +1,128 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/dulanjanmadusanka/Development/Microservices/EventSourcingCQRS/EventSourcingCQRS.ReadModel/EventSourcingCQRS.ReadModel.csproj": {}
+  },
+  "projects": {
+    "/Users/dulanjanmadusanka/Development/Microservices/EventSourcingCQRS/EventSourcingCQRS.Domain/EventSourcingCQRS.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/dulanjanmadusanka/Development/Microservices/EventSourcingCQRS/EventSourcingCQRS.Domain/EventSourcingCQRS.Domain.csproj",
+        "projectName": "EventSourcingCQRS.Domain",
+        "projectPath": "/Users/dulanjanmadusanka/Development/Microservices/EventSourcingCQRS/EventSourcingCQRS.Domain/EventSourcingCQRS.Domain.csproj",
+        "packagesPath": "/Users/dulanjanmadusanka/.nuget/packages/",
+        "outputPath": "/Users/dulanjanmadusanka/Development/Microservices/EventSourcingCQRS/EventSourcingCQRS.Domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/dulanjanmadusanka/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.0": {
+            "targetAlias": "netcoreapp2.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.0": {
+          "targetAlias": "netcoreapp2.0",
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.402/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/dulanjanmadusanka/Development/Microservices/EventSourcingCQRS/EventSourcingCQRS.ReadModel/EventSourcingCQRS.ReadModel.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/dulanjanmadusanka/Development/Microservices/EventSourcingCQRS/EventSourcingCQRS.ReadModel/EventSourcingCQRS.ReadModel.csproj",
+        "projectName": "EventSourcingCQRS.ReadModel",
+        "projectPath": "/Users/dulanjanmadusanka/Development/Microservices/EventSourcingCQRS/EventSourcingCQRS.ReadModel/EventSourcingCQRS.ReadModel.csproj",
+        "packagesPath": "/Users/dulanjanmadusanka/.nuget/packages/",
+        "outputPath": "/Users/dulanjanmadusanka/Development/Microservices/EventSourcingCQRS/EventSourcingCQRS.ReadModel/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/dulanjanmadusanka/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.0": {
+            "targetAlias": "netcoreapp2.0",
+            "projectReferences": {
+              "/Users/dulanjanmadusanka/Development/Microservices/EventSourcingCQRS/EventSourcingCQRS.Domain/EventSourcingCQRS.Domain.csproj": {
+                "projectPath": "/Users/dulanjanmadusanka/Development/Microservices/EventSourcingCQRS/EventSourcingCQRS.Domain/EventSourcingCQRS.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.0": {
+          "targetAlias": "netcoreapp2.0",
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.0, )",
+              "autoReferenced": true
+            },
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.402/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

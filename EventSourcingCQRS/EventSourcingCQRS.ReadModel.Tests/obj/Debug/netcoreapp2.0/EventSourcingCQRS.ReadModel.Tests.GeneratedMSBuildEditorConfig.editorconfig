@@ -1,0 +1,3 @@
+is_global = true
+build_property.RootNamespace = EventSourcingCQRS.ReadModel.Tests
+build_property.ProjectDir = /Users/dulanjanmadusanka/Development/Microservices/EventSourcingCQRS/EventSourcingCQRS.ReadModel.Tests/

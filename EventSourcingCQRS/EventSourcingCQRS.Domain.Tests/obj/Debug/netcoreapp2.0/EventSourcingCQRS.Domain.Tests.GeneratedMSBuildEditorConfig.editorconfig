@@ -1,0 +1,3 @@
+is_global = true
+build_property.RootNamespace = EventSourcingCQRS.Domain.Tests
+build_property.ProjectDir = /Users/dulanjanmadusanka/Development/Microservices/EventSourcingCQRS/EventSourcingCQRS.Domain.Tests/

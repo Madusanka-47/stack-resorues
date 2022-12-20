@@ -1,0 +1,3 @@
+is_global = true
+build_property.RootNamespace = EventSourcingCQRS.Application
+build_property.ProjectDir = /Users/dulanjanmadusanka/Development/Microservices/EventSourcingCQRS/EventSourcingCQRS.Application/
