@@ -60,11 +60,12 @@ Unsafe/ Volatile</br>
 https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/unsafe-code
 https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/volatile
 </br>
-COM Common Object Modal</br>
+COM Component Object Modal</br>
 Reflection</br>
 Transparent Caching</br>
 Reflection</br>
 Call Sites </br>
+Coveriance/Contravariace/Invariance</br>
 </br> -->
 
 

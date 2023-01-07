@@ -48,7 +48,28 @@ openssl pkcs12 -export -out myserver.pfx -inkey "private-key-file" -in "merged-c
 </span>
 </p>
 
+<p> "az group create --name az204-blob-rg --location <myLocation>"
+</p>
+
+<p>az storage account create --resource-group az204-blob-rg --name \
+<myStorageAcct> --location <myLocation> \ 
+--kind BlockBlobStorage --sku Premium_LRS</p>
+
+<p>az group delete --name az204-blob-rg --no-wait 
+</p>
+
+<p>
+az storage account management-policy create \
+    --account-name <storage-account> \
+    --policy @policy.json \
+    --resource-group <resource-group>
+    </p>
+    
+#### Misselenious
+"<a href="<webappname>.azurewebsites.net/?x-ms-routing-name=self">Go back to production app</a>"</br>
+
 #### To be checked
 Statefull/Stateless</br>
+granular</br>
 
 

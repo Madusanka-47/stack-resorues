@@ -4,6 +4,8 @@
 // using JsonNet::Newtonsoft.Json.Linq;
 // using AltJObject = JsonNetAlternative::Newtonsoft.Json.Linq.JObject;
 
+using System.Runtime.CompilerServices;
+
 namespace CSharpAdvance;
 class Program
 {
@@ -104,10 +106,10 @@ class Program
         actions[1]();
         actions[1]();
 
-
         // ex000016
         Method(1, y: 2);
         Method(1, z: 3);
+
     }
     public static void DisplayMaxPrice(Nullable<decimal> maxPriceFilter)
     {
@@ -148,4 +150,12 @@ class Program
         Console.WriteLine("x={0}; y={1}; z={2}", x, y, z);
     }
     #endregion
+
+    public void sampleMethod(
+        [CallerFilePath] string name = null,
+        [CallerLineNumber] int number = 0,
+        [CallerMemberName] string member = null)
+    {
+
+    }
 }
